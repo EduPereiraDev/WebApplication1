@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Data;
-using WebApplication1.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApplication1.Controllers
+namespace WebApplication1
 {
     [Route("api/[controller]")]
     [ApiController]

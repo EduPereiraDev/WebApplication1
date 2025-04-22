@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agenda de Contatos</h1>
+
+    <form id="contatoForm">
+        <input type="hidden" id="id" />
+        <label>Nome: <input type="text" id="nome" required></label><br>
+        <label>Apelido: <input type="text" id="apelido"></label><br>
+        <label>CPF: <input type="text" id="cpf"></label><br>
+        <label>Telefone: <input type="text" id="telefone"></label><br>
+        <label>Email: <input type="email" id="email"></label><br>
+        <button type="submit">Salvar</button>
+        <button type="button" onclick="limparFormulario()">Cancelar</button>
+    </form>
+
+    <hr>
+
+    <label>Filtrar por data: <input type="date" id="filtroData" onchange="carregarContatos()"></label>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Apelido</th>
+                <th>CPF</th>
+                <th>Telefone</th>
+                <th>Email</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaContatos">
+            <!-- contatos virão aqui -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

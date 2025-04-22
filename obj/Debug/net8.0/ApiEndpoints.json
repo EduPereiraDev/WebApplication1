@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "WebApplication1.Controllers.ContatoController",
+    "ContainingType": "WebApplication1.ContatoController",
     "Method": "GetContatos",
     "RelativePath": "api/Contato",
     "HttpMethod": "GET",
@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplication1.Models.Contato, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebApplication1.Contato, WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "WebApplication1.Controllers.ContatoController",
+    "ContainingType": "WebApplication1.ContatoController",
     "Method": "PostContato",
     "RelativePath": "api/Contato",
     "HttpMethod": "POST",
@@ -29,13 +29,13 @@
     "Parameters": [
       {
         "Name": "contato",
-        "Type": "WebApplication1.Models.Contato",
+        "Type": "WebApplication1.Contato",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApplication1.Models.Contato",
+        "Type": "WebApplication1.Contato",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "ContainingType": "WebApplication1.Controllers.ContatoController",
+    "ContainingType": "WebApplication1.ContatoController",
     "Method": "GetContato",
     "RelativePath": "api/Contato/{id}",
     "HttpMethod": "GET",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "WebApplication1.Models.Contato",
+        "Type": "WebApplication1.Contato",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "ContainingType": "WebApplication1.Controllers.ContatoController",
+    "ContainingType": "WebApplication1.ContatoController",
     "Method": "PutContato",
     "RelativePath": "api/Contato/{id}",
     "HttpMethod": "PUT",
@@ -86,14 +86,14 @@
       },
       {
         "Name": "contato",
-        "Type": "WebApplication1.Models.Contato",
+        "Type": "WebApplication1.Contato",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApplication1.Controllers.ContatoController",
+    "ContainingType": "WebApplication1.ContatoController",
     "Method": "DeleteContato",
     "RelativePath": "api/Contato/{id}",
     "HttpMethod": "DELETE",
